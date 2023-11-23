@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: darkcyan;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #007BFF;
+    color: #fff;
+}
+#cadre1{
+	width: 30%;
+	height:30%;
+	border: 2px solid white;
+	background-image: url("acf.jpg");
+	
+}
+#cadre2{
+	width: 30%;
+	height:30%;
+	border: 2px solid white;
+	background-image: url("pain.jpg");
+	
+}
+#cadre3{
+	width: 30%;
+	height:30%;
+	border: 2px solid white;
+	background-image: url("free.jpg");
+	
+}

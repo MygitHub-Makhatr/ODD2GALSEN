@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .bar-chart {
+            width: 100%;
+            display: flex;
+            overflow: hidden;
+        }
+
+        .bar {
+            height: 0;
+            background-color: #4caf50;
+            transition: height 1s ease;
+        }
+
+        .bar-text {
+            text-align: center;
+            width: 100%;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        /* Animation */
+        @keyframes grow {
+            from { height: 0; }
+        }
+
+        .bar:nth-child(2) {
+            animation: grow 2s 1s forwards;
+        }
+    </style>
+    <title>Insécurité alimentaire au Sénégal en 2014</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Insécurité alimentaire au Sénégal en 2014</h2>
+        <div class="bar-chart">
+            <div class="bar" style="height: 60%;"></div>
+            <div class="bar" style="height: 40%;"></div>
+        </div>
+        <div class="bar-text">
+            <p>11.3 millions en 2013</p>
+            <p>20 millions en 2014</p>
+        </div>
+    </div>
+</body>
+</html>
